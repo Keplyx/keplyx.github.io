@@ -1,6 +1,8 @@
 ---
 layout : default
 title : About
+topbar_link : true
+topbar_right : true
 ---
 
 # About
@@ -12,4 +14,4 @@ In 2015, I started making maps for Portal 2, it was awesome, but I found myself 
 During the same year, I also decided to try Unity 3D and made some games with it.
 
 Then came 2016 summer holidays, I found out about the CS:GO's Hide and Seek gamemode, and I decided to remake official maps for it. It got way more success than I expected: The first map got as much downloads in one day than what my first CS:GO map got in one year!
-I continued making maps and games, and found myself limited in changing how the game works with Hammer. I then tried Sourcemod, and made some plugins for CS:GO with it. 
+I continued making maps and games, and found myself limited in changing how the game works with Hammer. I then tried Sourcemod, and made some plugins for CS:GO with it.

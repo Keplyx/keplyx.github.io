@@ -479,6 +479,7 @@ Small Device Styles
 .topnav {
     background-color: #333;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Style the links inside the navigation bar */
@@ -497,12 +498,14 @@ Small Device Styles
     color: black;
     text-decoration: none;
     font-weight: normal;
+    box-shadow: 1px 0px 3px #000;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color: #0090FF;
     color: white;
+    box-shadow: 1px 0px 3px #000;
 }
 
 .list-group{

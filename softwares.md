@@ -6,8 +6,10 @@ topbar_link : true
 
 # Softwares
 
-Here are listed the softwares I made.
+### CSGO map renamer
 
-## CSGO map renamer
+[Available on Github](https://github.com/Keplyx/Source-Map-Renamer)
 
-### WIP
+This software helps mappers in renaming their maps and all necessary files.
+
+It was a small project I made to learn Java.

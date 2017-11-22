@@ -1,8 +1,6 @@
 ---
 layout : default
 title : About
-topbar_link : true
-topbar_right : true
 ---
 
 # About

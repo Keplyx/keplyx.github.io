@@ -137,13 +137,13 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  // border: 1px solid #ebebeb;
+  //
+  // box-shadow: 0 0 5px #ebebeb;
+  // -webkit-box-shadow: 0 0 5px #ebebeb;
+  // -moz-box-shadow: 0 0 5px #ebebeb;
+  // -o-box-shadow: 0 0 5px #ebebeb;
+  // -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 p img {
@@ -230,7 +230,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  border: 1px solid #d5d5d5;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -244,7 +244,7 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+  border: 1px solid #d5d5d5;
  }
 
 form {
@@ -503,4 +503,48 @@ Small Device Styles
 .topnav a.active {
     background-color: #0090FF;
     color: white;
+}
+
+.list-group{
+    list-style: none;
+    display: block;
+}
+
+.list-group li{
+    border: 1px solid #d5d5d5;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.success{
+    background-color: #DFF0D8;
+}
+
+.success:hover{
+    background-color: #ceecc2;
+}
+
+.wip{
+    background-color: #D9EDF7;
+}
+
+.wip:hover{
+    background-color: #c0e2f3;
+}
+
+.unstable{
+    background-color: #FCF8E3;
+}
+
+.unstable:hover{
+    background-color: #f9f2cd;
+}
+
+.broken{
+    background-color: #F2DEDE;
+}
+
+.broken:hover{
+    background-color: #efc7c7;
 }

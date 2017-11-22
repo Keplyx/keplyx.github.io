@@ -1,8 +1,6 @@
 ---
 layout : default
 title : Home
-topbar_link : true
-topbar_left : true
 ---
 
 # Welcome

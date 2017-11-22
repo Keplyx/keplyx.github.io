@@ -169,7 +169,7 @@ em, cite { font-style: italic; }
 
 strong { font-weight: bold; }
 
-img { position: relative; margin: 0 auto; max-width: 739px; padding: 5px; margin: 10px 0 10px 0; border: 1px solid #ebebeb; box-shadow: 0 0 5px #ebebeb; -webkit-box-shadow: 0 0 5px #ebebeb; -moz-box-shadow: 0 0 5px #ebebeb; -o-box-shadow: 0 0 5px #ebebeb; -ms-box-shadow: 0 0 5px #ebebeb; }
+img { position: relative; margin: 0 auto; max-width: 739px; padding: 5px; margin: 10px 0 10px 0; }
 
 p img { display: inline; margin: 0; padding: 0; vertical-align: middle; text-align: center; border: none; }
 
@@ -197,11 +197,11 @@ dl p { padding-left: 20px; font-style: italic; }
 
 hr { height: 1px; margin-bottom: 5px; border: none; background: url("../images/bg_hr.png") repeat-x center; }
 
-table { border: 1px solid #373737; margin-bottom: 20px; text-align: left; }
+table { border: 1px solid #d5d5d5; margin-bottom: 20px; text-align: left; }
 
 th { font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 10px; background: #373737; color: #fff; }
 
-td { padding: 10px; border: 1px solid #373737; }
+td { padding: 10px; border: 1px solid #d5d5d5; }
 
 form { background: #f2f2f2; padding: 20px; }
 
@@ -275,3 +275,23 @@ Small Device Styles
 
 /* Add a color to the active/current link */
 .topnav a.active { background-color: #0090FF; color: white; }
+
+.list-group { list-style: none; display: block; }
+
+.list-group li { border: 1px solid #d5d5d5; float: left; text-align: center; padding: 10px; }
+
+.success { background-color: #DFF0D8; }
+
+.success:hover { background-color: #ceecc2; }
+
+.wip { background-color: #D9EDF7; }
+
+.wip:hover { background-color: #c0e2f3; }
+
+.unstable { background-color: #FCF8E3; }
+
+.unstable:hover { background-color: #f9f2cd; }
+
+.broken { background-color: #F2DEDE; }
+
+.broken:hover { background-color: #efc7c7; }

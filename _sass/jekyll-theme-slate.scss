@@ -480,6 +480,7 @@ Small Device Styles
     background-color: #333;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
 }
 
 /* Style the links inside the navigation bar */
@@ -490,6 +491,7 @@ Small Device Styles
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-radius: 2px;
 }
 
 /* Change the color of links on hover */
@@ -511,6 +513,7 @@ Small Device Styles
 .list-group{
     list-style: none;
     display: block;
+    border-radius: 2px;
 }
 
 .list-group li{
@@ -518,6 +521,7 @@ Small Device Styles
     float: left;
     text-align: center;
     padding: 10px;
+    border-radius: 2px;
 }
 
 .success{

@@ -7,7 +7,7 @@
 
     {% assign current = page.url | downcase | split: '/' %}
       <div class="topnav">
-        <a href="index.html" class="page-link"><i class="fa fa-home"></i></a>
+        <a href="index.html" class="page-link {% if page.url == "/" %}active{% endif %}"><i class="fa fa-home"></i></a>
         {% include page-links.html %}
         <a href="about.html" class="page-link {% if current[1] == "about.html" %}active{% endif %}" style="float:right"><i class="fa fa-info"></i></a>
         <a href="contact.html" class="page-link {% if current[1] == "contact.html" %}active{% endif %}" style="float:right"><i class="fa fa-envelope"></i></a>

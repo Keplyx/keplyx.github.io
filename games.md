@@ -6,7 +6,7 @@ topbar_link : true
 
 # Games
 
-Here are the games I made. Keep in my I made those to learn game development, so they are pretty basic (if not shitty).
+Here are the games I made. Keep in mind I made those to learn game development, so they are pretty basic (if not shitty).
 
 But feel free to try them, they are free!
 
